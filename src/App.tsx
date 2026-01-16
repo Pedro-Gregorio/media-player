@@ -73,8 +73,6 @@ function App() {
     }
   }, [playTime, currentSong.duration_ms, isPlaying, handleNext]);
 
-  
-
   return (
     <main className="min-h-screen bg-gray-200 text-zinc-950 flex flex-col items-center justify-center px-4 max-md:py-4">
       <div className="md:w-2xl lg:w-4xl bg-gray-50 rounded-xl border-2 border-gray-50 shadow-2xl py-12  px-8">
